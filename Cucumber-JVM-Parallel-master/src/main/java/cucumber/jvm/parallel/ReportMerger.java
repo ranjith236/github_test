@@ -22,10 +22,13 @@ public class ReportMerger {
      * @param reportDirectory
      * @throws Exception
      */
+    
+    // changed by me to check in github
     public void mergeReports(File reportDirectory) throws Throwable {
         Collection<File> existingReports = FileUtils.listFiles(reportDirectory, new String[]{"js"}, true);
 
         File mergedReport = null;
+        //System.out.println(@@)
 
         for (File report : existingReports) {
             //only address report files
