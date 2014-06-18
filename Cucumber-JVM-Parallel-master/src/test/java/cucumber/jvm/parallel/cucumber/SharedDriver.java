@@ -14,6 +14,9 @@ import java.util.concurrent.TimeUnit;
  * Based on shared webdriver implementation in cucumber-jvm examples
  * A new instance of SharedDriver is created for each Scenario and passed to  Stepdef classes via Dependency Injection
  */
+
+//changes to check in github
+
 public class SharedDriver extends EventFiringWebDriver {
     private static final WebDriver REAL_DRIVER;
     private static final Thread CLOSE_THREAD = new Thread() {
