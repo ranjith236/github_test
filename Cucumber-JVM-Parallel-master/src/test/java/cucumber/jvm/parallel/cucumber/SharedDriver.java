@@ -43,7 +43,7 @@ public class SharedDriver extends EventFiringWebDriver {
         }
         super.close();
     }
-
+    //made changes again for GH
     @Before
     /**
      * Delete all cookies at the start of each scenario to avoid
